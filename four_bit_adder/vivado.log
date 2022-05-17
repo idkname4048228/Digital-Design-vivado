@@ -1,0 +1,232 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon May 16 16:26:03 2022
+# Process ID: 4164
+# Current directory: C:/Code/Vivado/four_bit_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14004 C:\Code\Vivado\four_bit_adder\four_bit_adder.xpr
+# Log file: C:/Code/Vivado/four_bit_adder/vivado.log
+# Journal file: C:/Code/Vivado/four_bit_adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Code/Vivado/four_bit_adder/four_bit_adder.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder_file/Four_bit_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 0e639e7324054f26a5a2566c97da3716 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_behav xil_defaultlib.Top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/Four_bit_adder.v" Line 1. Module FourAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.FourAdder
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav/xsim.dir/Top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon May 16 16:26:57 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_behav -key {Behavioral:sim_1:Functional:Top} -tclbatch {Top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source Top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 150 ns : File "C:/Code/Vivado/four_bit_adder_file/Top.v" Line 36
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 875.363 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder_file/Four_bit_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 0e639e7324054f26a5a2566c97da3716 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_behav xil_defaultlib.Top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/Four_bit_adder.v" Line 1. Module FourAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.FourAdder
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav/xsim.dir/Top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon May 16 16:27:36 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_behav -key {Behavioral:sim_1:Functional:Top} -tclbatch {Top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source Top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 150 ns : File "C:/Code/Vivado/four_bit_adder_file/Top.v" Line 36
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder_file/Four_bit_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 0e639e7324054f26a5a2566c97da3716 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_behav xil_defaultlib.Top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/Four_bit_adder.v" Line 1. Module FourAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/four_bit_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.FourAdder
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav/xsim.dir/Top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon May 16 16:28:09 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Code/Vivado/four_bit_adder/four_bit_adder.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_behav -key {Behavioral:sim_1:Functional:Top} -tclbatch {Top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source Top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 150 ns : File "C:/Code/Vivado/four_bit_adder_file/Top.v" Line 36
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 16 16:46:37 2022...

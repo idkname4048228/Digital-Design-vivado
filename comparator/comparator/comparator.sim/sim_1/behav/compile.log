@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/comparator_file/compare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compare
+INFO: [VRFC 10-2458] undeclared symbol newnet5, assumed default net type wire [C:/Code/Vivado/comparator_file/compare.v:46]
+INFO: [VRFC 10-2458] undeclared symbol newnet6, assumed default net type wire [C:/Code/Vivado/comparator_file/compare.v:47]
+INFO: [VRFC 10-2458] undeclared symbol newnet7, assumed default net type wire [C:/Code/Vivado/comparator_file/compare.v:50]
+INFO: [VRFC 10-2458] undeclared symbol newnet8, assumed default net type wire [C:/Code/Vivado/comparator_file/compare.v:51]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/comparator_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/comparator/comparator/comparator.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

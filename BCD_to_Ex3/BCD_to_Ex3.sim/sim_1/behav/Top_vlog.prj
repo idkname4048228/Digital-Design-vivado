@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../BCD_to_Ex3_file/bcd_to_ex3.v"
+verilog xil_defaultlib  "../../../../BCD_to_Ex3_file/Top_sim.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
