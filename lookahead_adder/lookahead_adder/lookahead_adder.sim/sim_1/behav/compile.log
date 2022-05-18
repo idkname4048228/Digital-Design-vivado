@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/lookahead_adder_file/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/lookahead_adder_file/lookahead_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lookahead_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/lookahead_adder_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/lookahead_adder/lookahead_adder/lookahead_adder.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
