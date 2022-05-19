@@ -24,26 +24,26 @@ module Top();
             input2[3] = 4'b0;
             
          #50
-           mode = 1;
-           input1[0] = 4'b1;
-           input1[1] = 4'b1;
-           input1[2] = 4'b1;
-           input1[3] = 4'b1;
-           
-           input2[0] = 4'b1;
-           input2[1] = 4'b0;
-           input2[2] = 4'b0;
-           input2[3] = 4'b0;
+            mode = 1;
+            input1[0] = 4'b0;
+            input1[1] = 4'b1;
+            input1[2] = 4'b0;
+            input1[3] = 4'b1;
+            
+            input2[0] = 4'b1;
+            input2[1] = 4'b0;
+            input2[2] = 4'b0;
+            input2[3] = 4'b0;
        
         #50 $finish;
     end
 	
 
 	Adder adder(
-	   .be_add_number({input1[0], input1[1], input1[2], input1[3]}), 
-       .tmp({input2[0], input2[1], input2[2], input2[3]}), 
+	   .be_add_number({input1[3], input1[2], input1[1], input1[0]}), 
+       .tmp({input2[3], input2[2], input2[1], input2[0]}), 
        .Cin(mode), 
-       .sum({So[0], So[1], So[2], So[3]}), 
+       .sum({So[3], So[2], So[1], So[0]}), 
        .Cout(Cout),
        .overflow(overflow)
    );
