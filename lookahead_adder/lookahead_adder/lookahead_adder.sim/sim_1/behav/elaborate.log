@@ -5,8 +5,8 @@ Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/lookahead_adder_file/adder.v" Line 1. Module Adder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/lookahead_adder_file/lookahead_adder.v" Line 1. Module Lookahead_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/lookahead_adder/lookahead_adder_file/adder.v" Line 1. Module Adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/lookahead_adder/lookahead_adder_file/lookahead_adder.v" Line 1. Module Lookahead_adder doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.Lookahead_adder

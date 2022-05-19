@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/BCD_to_Ex3/BCD_to_Ex3_file/bcd_to_ex3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trans
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/BCD_to_Ex3/BCD_to_Ex3_file/Top_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/BCD_to_Ex3/BCD_to_Ex3/BCD_to_Ex3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,8 +1,8 @@
 # compile verilog/system verilog design source files
-verilog xil_defaultlib  "../../../../../decoder_with_1x2decoder_file/1x2decoder.v"
-verilog xil_defaultlib  "../../../../../decoder_with_1x2decoder_file/decoder.v"
-verilog xil_defaultlib  "../../../../../decoder_with_1x2decoder_file/two_to_four_decoder.v"
-verilog xil_defaultlib  "../../../../../decoder_with_1x2decoder_file/Top.v"
+verilog xil_defaultlib  "../../../../decoder_with_1x2decoder_file/1x2decoder.v"
+verilog xil_defaultlib  "../../../../decoder_with_1x2decoder_file/decoder.v"
+verilog xil_defaultlib  "../../../../decoder_with_1x2decoder_file/two_to_four_decoder.v"
+verilog xil_defaultlib  "../../../../decoder_with_1x2decoder_file/Top.v"
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

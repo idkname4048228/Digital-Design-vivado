@@ -1,6 +1,6 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/three_to_eight_decoder_file/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/three_to_eight_decoder/three_to_eight_decoder_file/decoder.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module decoder
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/three_to_eight_decoder_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/three_to_eight_decoder/three_to_eight_decoder_file/Top.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Top
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/three_to_eight_decoder/three_to_eight_decoder/three_to_eight_decoder.sim/sim_1/behav/glbl.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module glbl

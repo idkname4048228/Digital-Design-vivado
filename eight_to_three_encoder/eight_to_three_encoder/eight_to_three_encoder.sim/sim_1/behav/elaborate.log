@@ -5,7 +5,7 @@ Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/eight_to_three_encoder_file/encoder.v" Line 2. Module encoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/eight_to_three_encoder/eight_to_three_encoder_file/encoder.v" Line 2. Module encoder doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.encoder

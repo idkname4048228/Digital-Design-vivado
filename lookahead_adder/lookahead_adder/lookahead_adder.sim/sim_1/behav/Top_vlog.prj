@@ -1,7 +1,7 @@
 # compile verilog/system verilog design source files
-verilog xil_defaultlib  "../../../../../lookahead_adder_file/adder.v"
-verilog xil_defaultlib  "../../../../../lookahead_adder_file/lookahead_adder.v"
-verilog xil_defaultlib  "../../../../../lookahead_adder_file/Top.v"
+verilog xil_defaultlib  "../../../../lookahead_adder_file/adder.v"
+verilog xil_defaultlib  "../../../../lookahead_adder_file/lookahead_adder.v"
+verilog xil_defaultlib  "../../../../lookahead_adder_file/Top.v"
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

@@ -5,11 +5,11 @@ Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/subtractor_with_Fulladder_file/Four_bit_adder.v" Line 1. Module FourAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/subtractor_with_Fulladder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/subtractor_with_Fulladder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/subtractor_with_Fulladder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/subtractor_with_Fulladder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/subtractor_with_Fulladder/subtractor_with_Fulladder_file/Four_bit_adder.v" Line 1. Module FourAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/subtractor_with_Fulladder/subtractor_with_Fulladder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/subtractor_with_Fulladder/subtractor_with_Fulladder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/subtractor_with_Fulladder/subtractor_with_Fulladder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/subtractor_with_Fulladder/subtractor_with_Fulladder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.FullAdder

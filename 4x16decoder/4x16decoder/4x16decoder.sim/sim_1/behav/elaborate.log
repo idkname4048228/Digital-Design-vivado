@@ -5,9 +5,9 @@ Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x16decoder_file/4x16decoder.v" Line 22. Module four_to_sixteen_decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x16decoder_file/decoder.v" Line 2. Module decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x16decoder_file/decoder.v" Line 2. Module decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x16decoder/4x16decoder_file/4x16decoder.v" Line 22. Module four_to_sixteen_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x16decoder/4x16decoder_file/decoder.v" Line 2. Module decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x16decoder/4x16decoder_file/decoder.v" Line 2. Module decoder doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.decoder

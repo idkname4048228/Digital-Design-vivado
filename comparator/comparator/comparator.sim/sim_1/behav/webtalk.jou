@@ -2,8 +2,8 @@
 # Webtalk v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Mon May 16 17:49:34 2022
-# Process ID: 18600
+# Start of session at: Thu May 19 11:40:45 2022
+# Process ID: 11876
 # Current directory: C:/Code/Vivado/comparator/comparator/comparator.sim/sim_1/behav
 # Command line: wbtcv.exe -mode batch -source C:/Code/Vivado/comparator/comparator/comparator.sim/sim_1/behav/xsim.dir/Top_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/Code/Vivado/comparator/comparator/comparator.sim/sim_1/behav/webtalk.log

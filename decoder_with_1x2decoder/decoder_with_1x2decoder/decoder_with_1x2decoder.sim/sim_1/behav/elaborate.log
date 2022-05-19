@@ -5,13 +5,13 @@ Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder_file/decoder.v" Line 2. Module decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder_file/two_to_four_decoder.v" Line 1. Module two_to_four_decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder_file/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder_file/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder_file/two_to_four_decoder.v" Line 1. Module two_to_four_decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder_file/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder_file/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder/decoder_with_1x2decoder_file/decoder.v" Line 2. Module decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder/decoder_with_1x2decoder_file/two_to_four_decoder.v" Line 1. Module two_to_four_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder/decoder_with_1x2decoder_file/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder/decoder_with_1x2decoder_file/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder/decoder_with_1x2decoder_file/two_to_four_decoder.v" Line 1. Module two_to_four_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder/decoder_with_1x2decoder_file/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/decoder_with_1x2decoder/decoder_with_1x2decoder_file/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.one_to_two_decoder
