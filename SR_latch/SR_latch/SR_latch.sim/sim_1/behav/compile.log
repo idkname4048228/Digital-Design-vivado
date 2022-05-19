@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/SR_latch/SR_latch_file/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/SR_latch/SR_latch_file/SR_latch_with_clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Latch_with_clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/SR_latch/SR_latch_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/SR_latch/SR_latch/SR_latch.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
