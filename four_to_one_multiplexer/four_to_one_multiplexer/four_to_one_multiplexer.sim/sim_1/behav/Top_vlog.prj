@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../four_to_one_multiplexer_file/four_to_one_multiplexer_file.v"
+verilog xil_defaultlib  "../../../../four_to_one_multiplexer_file/Top.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

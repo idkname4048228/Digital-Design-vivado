@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/quarduple_two_to_one_mulitiplexer/quarduple_two_to_one_mulitiplexer_file/mulitiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mulitiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/quarduple_two_to_one_mulitiplexer/quarduple_two_to_one_mulitiplexer_file/two_to_one_multiplexer_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_to_one
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/quarduple_two_to_one_mulitiplexer/quarduple_two_to_one_mulitiplexer_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/quarduple_two_to_one_mulitiplexer/quarduple_two_to_one_mulitiplexer/quarduple_two_to_one_mulitiplexer.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
