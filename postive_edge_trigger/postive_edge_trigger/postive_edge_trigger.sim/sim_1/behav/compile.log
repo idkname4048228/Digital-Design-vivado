@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/postive_edge_trigger/postive_edge_trigger_file/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SRLatch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/postive_edge_trigger/postive_edge_trigger_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/postive_edge_trigger/postive_edge_trigger_file/postive_edge_trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module postive_edge_trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/postive_edge_trigger/postive_edge_trigger_file/time_simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_simulation
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/postive_edge_trigger/postive_edge_trigger/postive_edge_trigger.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

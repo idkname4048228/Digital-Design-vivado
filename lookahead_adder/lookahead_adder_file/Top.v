@@ -9,7 +9,6 @@ module Top();
 
     
     initial begin
-        #50
             Cin = 0;
             input1[0] = 4'b0;
             input1[1] = 4'b0;
