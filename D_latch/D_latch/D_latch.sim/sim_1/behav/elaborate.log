@@ -6,10 +6,12 @@ Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4099] "C:/Code/Vivado/D_latch/D_latch_file/D_latch.v" Line 1. Module DLatch doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Code/Vivado/D_latch/D_latch_file/SR_latch.v" Line 1. Module Latch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/D_latch/D_latch_file/SR_latch_with_control.v" Line 1. Module Latch_with_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/D_latch/D_latch_file/SR_latch.v" Line 2. Module Latch doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.Latch_with_control
 Compiling module xil_defaultlib.DLatch
 Compiling module xil_defaultlib.Top
 Compiling module xil_defaultlib.glbl

@@ -1,18 +1,16 @@
 `timescale 1ns / 10ps
 module Top();
-	reg clk;
+	reg  control;
     reg  D;
     wire Q, Qp;
 
     initial begin
-        #50
-            clk = 1'b0;
-        #50
-            D = 1'b0;
+        control = 0;
+        D = 0;
         #50
             D = 1'b1;
         #50
-            clk = 1'b1;
+            control = 1;
         #50
             D = 1'b0;
         #50
@@ -22,12 +20,10 @@ module Top();
 	
 
 	DLatch latch(
-        .Clock(clk),
         .D(D),
-        .inputQ(Q),
-        .inputQp(Qp),
-        .outputQ(Q),
-        .outputQp(Qp)
+        .C(control),
+        .Q(Q),
+        .Qp(Qp)
    );
 
 endmodule

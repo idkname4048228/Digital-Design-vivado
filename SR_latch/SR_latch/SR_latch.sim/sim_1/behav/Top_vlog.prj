@@ -1,6 +1,6 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  "../../../../SR_latch_file/SR_latch.v"
-verilog xil_defaultlib  "../../../../SR_latch_file/SR_latch_with_clock.v"
+verilog xil_defaultlib  "../../../../SR_latch_file/SR_latch_with_control.v"
 verilog xil_defaultlib  "../../../../SR_latch_file/Top.v"
 
 # compile glbl module

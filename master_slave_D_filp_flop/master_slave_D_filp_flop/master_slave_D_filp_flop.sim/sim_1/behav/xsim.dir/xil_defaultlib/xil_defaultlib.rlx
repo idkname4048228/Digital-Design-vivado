@@ -3,7 +3,8 @@
 Jun 15 2017
 18:52:51
 C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop/master_slave_D_filp_flop.sim/sim_1/behav/glbl.v,1497407496,verilog,,,,glbl,,,,,,,,
-C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/D_latch.v,1653238625,verilog,,,,DLatch,,,,,,,,
-C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/SR_latch.v,1652974690,verilog,,,,Latch,,,,,,,,
-C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/Top.v,1653238221,verilog,,,,Top,,,,,,,,
+C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/D_latch.v,1653275579,verilog,,,,DLatch,,,,,,,,
+C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/SR_latch.v,1653275575,verilog,,,,Latch,,,,,,,,
+C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/Top.v,1653274256,verilog,,,,Top,,,,,,,,
 C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/master_slave.v,1653238094,verilog,,,,Master_Slave,,,,,,,,
+C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/time_simulation.v,1653274294,verilog,,,,time_simulation,,,,,,,,

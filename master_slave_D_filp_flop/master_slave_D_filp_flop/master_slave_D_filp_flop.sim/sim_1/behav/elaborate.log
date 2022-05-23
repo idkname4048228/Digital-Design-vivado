@@ -1,6 +1,6 @@
 Vivado Simulator 2017.2
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto df68c833fd0545fa9d5e94b6f921b1bd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_behav xil_defaultlib.Top xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto df68c833fd0545fa9d5e94b6f921b1bd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot time_simulation_behav xil_defaultlib.time_simulation xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -16,5 +16,6 @@ Compiling module xil_defaultlib.Latch
 Compiling module xil_defaultlib.DLatch
 Compiling module xil_defaultlib.Master_Slave
 Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.time_simulation
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot Top_behav
+Built simulation snapshot time_simulation_behav

@@ -13,8 +13,6 @@ module DLatch(
 	Latch latch(
 	   .S(net1),
 	   .R(net2),
-	   .inputQ(tmpQ),
-	   .inputQp(tmpQp),
 	   .outputQ(tmpQ),
 	   .outputQp(tmpQp)
     );

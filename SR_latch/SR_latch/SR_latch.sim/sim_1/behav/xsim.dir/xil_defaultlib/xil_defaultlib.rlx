@@ -3,6 +3,6 @@
 Jun 15 2017
 18:52:51
 C:/Code/Vivado/SR_latch/SR_latch/SR_latch.sim/sim_1/behav/glbl.v,1497407496,verilog,,,,glbl,,,,,,,,
-C:/Code/Vivado/SR_latch/SR_latch_file/SR_latch.v,1652974690,verilog,,,,Latch,,,,,,,,
-C:/Code/Vivado/SR_latch/SR_latch_file/SR_latch_with_clock.v,1652974975,verilog,,,,Latch_with_clock,,,,,,,,
-C:/Code/Vivado/SR_latch/SR_latch_file/Top.v,1652975151,verilog,,,,Top,,,,,,,,
+C:/Code/Vivado/SR_latch/SR_latch_file/SR_latch.v,1653287122,verilog,,,,Latch,,,,,,,,
+C:/Code/Vivado/SR_latch/SR_latch_file/SR_latch_with_control.v,1653279324,verilog,,,,Latch_with_control,,,,,,,,
+C:/Code/Vivado/SR_latch/SR_latch_file/Top.v,1653287368,verilog,,,,Top,,,,,,,,

@@ -3,6 +3,7 @@
 Jun 15 2017
 18:52:51
 C:/Code/Vivado/D_latch/D_latch/D_latch.sim/sim_1/behav/glbl.v,1497407496,verilog,,,,glbl,,,,,,,,
-C:/Code/Vivado/D_latch/D_latch_file/D_latch.v,1652975670,verilog,,,,DLatch,,,,,,,,
-C:/Code/Vivado/D_latch/D_latch_file/SR_latch.v,1652974690,verilog,,,,Latch,,,,,,,,
-C:/Code/Vivado/D_latch/D_latch_file/Top.v,1652975758,verilog,,,,Top,,,,,,,,
+C:/Code/Vivado/D_latch/D_latch_file/D_latch.v,1653287642,verilog,,,,DLatch,,,,,,,,
+C:/Code/Vivado/D_latch/D_latch_file/SR_latch.v,1653287122,verilog,,,,Latch,,,,,,,,
+C:/Code/Vivado/D_latch/D_latch_file/SR_latch_with_control.v,1653279324,verilog,,,,Latch_with_control,,,,,,,,
+C:/Code/Vivado/D_latch/D_latch_file/Top.v,1653287726,verilog,,,,Top,,,,,,,,

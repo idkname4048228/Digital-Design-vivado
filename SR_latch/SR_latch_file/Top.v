@@ -1,57 +1,35 @@
-`timescale 1ns / 10ps
+`timescale 1ns / 1ps
 module Top();
-	reg clk;
+	reg  C;
     reg  S;
     reg  R;
-    wire Q, Qp;
+    wire Q;
+    wire Qp;
 
     initial begin
+        C = 1;
+        S = 1;
+        R = 1;
+        #50 
+            S = 0;
+            R = 1;
         #50
-            clk = 1'b0;
+            R = 0;
         #50
-            S = 1'b1;
-            R = 1'b0;
+            S = 1;
         #50
-            S = 1'b0;
-            R = 1'b0;
-        #50
-            S = 1'b0;
-            R = 1'b1;
-        #50
-            S = 1'b0;
-            R = 1'b0;
-        #50
-            S = 1'b1;
-            R = 1'b1;
-        #50
-            clk = 1'b1;
-        #50
-            S = 1'b1;
-            R = 1'b0;
-        #50
-            S = 1'b0;
-            R = 1'b0;
-        #50
-            S = 1'b0;
-            R = 1'b1;
-        #50
-            S = 1'b0;
-            R = 1'b0;
-        #50
-            S = 1'b1;
-            R = 1'b1;
+            S = 0;
+    
         #50 $finish;
     end
 	
 
-	Latch_with_clock latch(
-        .Clock(clk),
+	Latch_with_control latch(
+        .C(C),
         .S(S),
         .R(R),
-        .inputQ(Q),
-        .inputQp(Qp),
-        .outputQ(Q),
-        .outputQp(Qp)
+        .Q(Q),
+        .Qp(Qp)
    );
 
 endmodule
