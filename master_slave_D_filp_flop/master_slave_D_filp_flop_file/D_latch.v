@@ -1,24 +1,16 @@
 module DLatch(	
 		input D,
-		input Clock,
-		output outputQ
+		input C,
+		output Q
 	);
 	
-	wire net1, net2;
-	wire tmpQ, tmpQp;
 	
-	nand(net1, D, Clock);
-	nand(net2, ~D, Clock);
-	
-	Latch latch(
-	   .S(net1),
-	   .R(net2),
-	   .outputQ(tmpQ),
-	   .outputQp(tmpQp)
-    );
-    
-    assign outputQ = tmpQ;
-    
+	Latch_with_control latch(
+	   .S(D),
+	   .C(C),
+	   .R(~D),
+	   .Q(Q)
+    ); 
 	
 
 endmodule	

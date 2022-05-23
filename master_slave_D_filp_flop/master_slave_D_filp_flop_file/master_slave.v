@@ -1,21 +1,21 @@
 module Master_Slave(	
 		input D,
 		input Clock, 
-		output outputQ
+		output Q
 	);
 	
 	wire tmpQ;
 	
 	DLatch latch1(
 	   .D(D),
-	   .Clock(Clock),
-	   .outputQ(tmpQ)
+	   .C(Clock),
+	   .Q(tmpQ)
     ); 
     
     DLatch latch2(
        .D(tmpQ),
-       .Clock(~Clock),
-       .outputQ(outputQ)
+       .C(~Clock),
+       .Q(Q)
     );
 	
 

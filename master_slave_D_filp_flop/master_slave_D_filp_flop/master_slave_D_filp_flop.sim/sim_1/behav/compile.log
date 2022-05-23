@@ -2,6 +2,8 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/master_slave_D_filp_
 INFO: [VRFC 10-311] analyzing module DLatch
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/SR_latch.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/SR_latch_with_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Latch_with_control
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/Top.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Top
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/master_slave_D_filp_flop/master_slave_D_filp_flop_file/master_slave.v" into library xil_defaultlib

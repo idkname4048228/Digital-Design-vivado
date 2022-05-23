@@ -1,15 +1,17 @@
+
 module Latch(	
 		input S,
 		input R,
-		output outputQ,
-		output outputQp
+		output Q
 	);
 	
-	wire net1, net2;
-	
-	nand(net1, outputQ, R);
-	nand(net2, outputQp, S);
-	
+	wire tmpQ, tmpQp;
+    
+    nand(tmpQ, S, tmpQp);
+    nand(tmpQp, R, tmpQ);
+    
+    assign Q = tmpQ;
+
 	
 
 endmodule	

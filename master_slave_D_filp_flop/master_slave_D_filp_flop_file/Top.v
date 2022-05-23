@@ -6,30 +6,31 @@ module Top(
     wire Q;
 
     initial begin
-        #49
+        D = 1'b1;
+        #50
             D = 1'b0;
-        #48
+        #75
             D = 1'b1;
-        #47
+        #15
             D = 1'b0;
-        #46
+        #60
             D = 1'b1;
-        #49
+        #50
             D = 1'b0;
-        #48
+        #100
             D = 1'b1;
-        #47
+        #20
             D = 1'b0;
-        #46
+        #70
             D = 1'b1;
-        #50 $finish;
+        #60 $finish;
     end
 	
 
 	Master_Slave filp_flop(
         .D(D),
         .Clock(clkin),
-        .outputQ(Q)
+        .Q(Q)
    );
 
 endmodule
