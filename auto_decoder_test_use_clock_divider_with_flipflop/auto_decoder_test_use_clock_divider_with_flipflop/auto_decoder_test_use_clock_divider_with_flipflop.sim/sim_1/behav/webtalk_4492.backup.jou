@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri May 27 19:57:55 2022
+# Process ID: 4492
+# Current directory: C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop.sim/sim_1/behav/xsim.dir/time_simulation_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop.sim/sim_1/behav/xsim.dir/time_simulation_behav/webtalk/xsim_webtalk.tcl -notrace

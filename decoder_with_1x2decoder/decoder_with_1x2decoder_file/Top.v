@@ -26,6 +26,7 @@ module Top();
             A[0] = 1'b0;
         #50
             A[0] = 1'b1;
+        #50 $finish;
     end
     
     decoder Three_to_Eight(

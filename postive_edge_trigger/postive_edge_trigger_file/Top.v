@@ -6,20 +6,18 @@ module Top(
     wire Q, Qp;
 
     initial begin
-            D = 1'b0;
-        #90
             D = 1'b1;
-        #70
+        #25
             D = 1'b0;
-        #40
+        repeat(5) begin
+        #100
             D = 1'b1;
         #100
             D = 1'b0;
-        #50
+        end
             D = 1'b1;
-        #30
-            D = 1'b0;
-        #70 $finish;
+       
+        #25 $finish;
     end
 	
 

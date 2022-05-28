@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/1x2decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_to_two_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SRLatch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/postive_edge_trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module postive_edge_trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/two_to_four_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_to_four_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/time_simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_simulation
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

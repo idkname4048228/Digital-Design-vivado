@@ -1,0 +1,12 @@
+0.6
+2017.2
+Jun 15 2017
+18:52:51
+C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop.sim/sim_1/behav/glbl.v,1497407496,verilog,,,,glbl,,,,,,,,
+C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/Top.v,1653749844,verilog,,,,Top,,,,,,,,
+C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/1x2decoder.v,1652775843,verilog,,,,one_to_two_decoder,,,,,,,,
+C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/decoder.v,1652776006,verilog,,,,decoder,,,,,,,,
+C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/two_to_four_decoder.v,1652776375,verilog,,,,two_to_four_decoder,,,,,,,,
+C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/SR_latch.v,1653407468,verilog,,,,SRLatch,,,,,,,,
+C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/postive_edge_trigger.v,1653315779,verilog,,,,postive_edge_trigger,,,,,,,,
+C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/time_simulation.v,1653749642,verilog,,,,time_simulation,,,,,,,,

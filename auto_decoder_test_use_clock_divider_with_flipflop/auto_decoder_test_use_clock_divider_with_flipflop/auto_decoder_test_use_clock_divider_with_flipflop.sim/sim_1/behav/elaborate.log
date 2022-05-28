@@ -1,0 +1,33 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto ab4d6ebd845f44f6a87297e058065487 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot time_simulation_behav xil_defaultlib.time_simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/postive_edge_trigger.v" Line 1. Module postive_edge_trigger doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/SR_latch.v" Line 2. Module SRLatch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/SR_latch.v" Line 2. Module SRLatch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/SR_latch.v" Line 2. Module SRLatch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/postive_edge_trigger.v" Line 1. Module postive_edge_trigger doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/SR_latch.v" Line 2. Module SRLatch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/SR_latch.v" Line 2. Module SRLatch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/SR_latch.v" Line 2. Module SRLatch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/decoder.v" Line 2. Module decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/two_to_four_decoder.v" Line 1. Module two_to_four_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/two_to_four_decoder.v" Line 1. Module two_to_four_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/1x2decoder.v" Line 1. Module one_to_two_decoder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SRLatch
+Compiling module xil_defaultlib.postive_edge_trigger
+Compiling module xil_defaultlib.one_to_two_decoder
+Compiling module xil_defaultlib.two_to_four_decoder
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.time_simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot time_simulation_behav

@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/1x2decoder.v"
+verilog xil_defaultlib  "../../../../auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/SR_latch.v"
+verilog xil_defaultlib  "../../../../auto_decoder_test_use_clock_divider_with_flipflop_file/Top.v"
+verilog xil_defaultlib  "../../../../auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/decoder.v"
+verilog xil_defaultlib  "../../../../auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/postive_edge_trigger.v"
+verilog xil_defaultlib  "../../../../auto_decoder_test_use_clock_divider_with_flipflop_file/decoder/two_to_four_decoder.v"
+verilog xil_defaultlib  "../../../../auto_decoder_test_use_clock_divider_with_flipflop_file/flipflop/time_simulation.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
