@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../4x16decoder_file/decoder.v"
+verilog xil_defaultlib  "../../../../4x16decoder_file/Top3x8decoder.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

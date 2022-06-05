@@ -10,7 +10,6 @@ module Top();
 
     
     initial begin
-        #50
             mode = 0;
             input1[0] = 4'b0;
             input1[1] = 4'b1;
@@ -24,16 +23,39 @@ module Top();
             
          #50
            mode = 1;
-           input1[0] = 4'b0;
-           input1[1] = 4'b1;
-           input1[2] = 4'b0;
-           input1[3] = 4'b1;
+           input1[0] = 4'b1;
+           input1[1] = 4'b0;
+           input1[2] = 4'b1;
+           input1[3] = 4'b0;
            
            input2[0] = 4'b1;
            input2[1] = 4'b0;
            input2[2] = 4'b0;
            input2[3] = 4'b0;
        
+       #50
+          mode = 0;
+          input1[0] = 4'b1;
+          input1[1] = 4'b1;
+          input1[2] = 4'b1;
+          input1[3] = 4'b1;
+          
+          input2[0] = 4'b0;
+          input2[1] = 4'b0;
+          input2[2] = 4'b0;
+          input2[3] = 4'b1;
+       
+        #50
+           mode = 0;
+           input1[0] = 4'b1;
+           input1[1] = 4'b1;
+           input1[2] = 4'b1;
+           input1[3] = 4'b0;
+           
+           input2[0] = 4'b1;
+           input2[1] = 4'b0;
+           input2[2] = 4'b0;
+           input2[3] = 4'b0;
         #50 $finish;
     end
 	

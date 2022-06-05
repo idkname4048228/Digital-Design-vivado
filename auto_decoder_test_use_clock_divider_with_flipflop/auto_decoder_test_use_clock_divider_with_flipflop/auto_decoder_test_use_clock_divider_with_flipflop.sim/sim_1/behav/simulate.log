@@ -1,0 +1,3 @@
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+$finish called at time : 700 ns : File "C:/Code/Vivado/auto_decoder_test_use_clock_divider_with_flipflop/auto_decoder_test_use_clock_divider_with_flipflop_file/Top.v" Line 28
