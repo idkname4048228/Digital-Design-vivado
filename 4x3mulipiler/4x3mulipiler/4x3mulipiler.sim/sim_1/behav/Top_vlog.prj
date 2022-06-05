@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../4x3mulipiler_file/Four_bit_adder.v"
+verilog xil_defaultlib  "../../../../4x3mulipiler_file/Top.v"
+verilog xil_defaultlib  "../../../../4x3mulipiler_file/four_and_three_mulitipiler.v"
+verilog xil_defaultlib  "../../../../4x3mulipiler_file/FullAdder.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

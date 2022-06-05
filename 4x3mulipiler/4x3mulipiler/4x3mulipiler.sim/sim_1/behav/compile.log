@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/Four_bit_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/four_and_three_mulitipiler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_and_three_mulitipiler
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/4x3mulipiler/4x3mulipiler/4x3mulipiler.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
