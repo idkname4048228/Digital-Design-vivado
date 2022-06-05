@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../two_bits_multiplier_file/halfadder.v"
+verilog xil_defaultlib  "../../../../two_bits_multiplier_file/two_bits_muliplier.v"
+verilog xil_defaultlib  "../../../../two_bits_multiplier_file/Top.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

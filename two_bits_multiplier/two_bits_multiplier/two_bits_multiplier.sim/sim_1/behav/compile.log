@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/two_bits_multiplier/two_bits_multiplier_file/halfadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halfadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/two_bits_multiplier/two_bits_multiplier_file/two_bits_muliplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_bits_muliplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/two_bits_multiplier/two_bits_multiplier_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/two_bits_multiplier/two_bits_multiplier/two_bits_multiplier.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
