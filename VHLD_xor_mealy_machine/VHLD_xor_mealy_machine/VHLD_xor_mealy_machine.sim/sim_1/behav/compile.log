@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Code/Vivado/VHLD_xor_mealy_machine/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Code/Vivado/VHLD_xor_mealy_machine/time_simulate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity time_simulate

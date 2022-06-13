@@ -6,6 +6,18 @@ Starting static elaboration
 WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Code/Vivado/deciaml_adder/decimal_adder_file/decimal_adder.v:31]
 Completed static elaboration
 Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/two_bits_decimal_adder.v" Line 1. Module two_bits_decimal_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/decimal_adder.v" Line 1. Module decimal_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/Four_bit_adder.v" Line 1. Module FourAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/Four_bit_adder.v" Line 1. Module FourAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/decimal_adder.v" Line 1. Module decimal_adder doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/Four_bit_adder.v" Line 1. Module FourAdder doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Code/Vivado/deciaml_adder/decimal_adder_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
@@ -22,6 +34,7 @@ Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.FullAdder
 Compiling module xil_defaultlib.FourAdder
 Compiling module xil_defaultlib.decimal_adder
+Compiling module xil_defaultlib.two_bits_decimal_adder
 Compiling module xil_defaultlib.Top
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot Top_behav

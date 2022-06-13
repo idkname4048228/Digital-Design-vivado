@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../Top.vhd"
+vhdl xil_defaultlib  "../../../../time_simulate.vhd"
+
+# Do not sort compile order
+nosort

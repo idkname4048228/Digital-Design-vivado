@@ -3,11 +3,21 @@ Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
 Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 2acfd03d30e045e281ecd3220aa0e327 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_behav xil_defaultlib.Top xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/four_and_three_mulitipiler.v:31]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/four_and_three_mulitipiler.v:39]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/four_and_three_mulitipiler.v:42]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/four_and_three_mulitipiler.v:50]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Cin [C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/four_and_three_mulitipiler.v:58]
 Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/four_and_three_mulitipiler.v" Line 1. Module four_and_three_mulitipiler doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/one_bit_mulipier.v" Line 1. Module one_bit_mulipier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/one_bit_mulipier.v" Line 1. Module one_bit_mulipier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/one_bit_mulipier.v" Line 1. Module one_bit_mulipier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/one_bit_mulipier.v" Line 1. Module one_bit_mulipier doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/Four_bit_adder.v" Line 1. Module FourAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/Four_bit_adder.v" Line 1. Module FourAdder doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
@@ -20,6 +30,7 @@ WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/FullAdder
 WARNING: [XSIM 43-4099] "C:/Code/Vivado/4x3mulipiler/4x3mulipiler_file/FullAdder.v" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.one_bit_mulipier
 Compiling module xil_defaultlib.FullAdder
 Compiling module xil_defaultlib.FourAdder
 Compiling module xil_defaultlib.four_and_three_mulitipiler

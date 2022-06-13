@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/D_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DLatch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/SR_latch_with_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Latch_with_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/jk_flip_flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jk_flip_flop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/jk_flip_flop_with_D_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jk_flip_flop_with_D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/time_simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_simulation
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Code/Vivado/JK_flip_flop/JK_flip_flop/JK_flip_flop.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

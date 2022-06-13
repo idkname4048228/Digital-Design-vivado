@@ -1,0 +1,12 @@
+0.6
+2017.2
+Jun 15 2017
+18:52:51
+C:/Code/Vivado/JK_flip_flop/JK_flip_flop/JK_flip_flop.sim/sim_1/behav/glbl.v,1497407496,verilog,,,,glbl,,,,,,,,
+C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/D_latch.v,1653287642,verilog,,,,DLatch,,,,,,,,
+C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/SR_latch.v,1654613682,verilog,,,,Latch,,,,,,,,
+C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/SR_latch_with_control.v,1654611839,verilog,,,,Latch_with_control,,,,,,,,
+C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/Top.v,1654613389,verilog,,,,Top,,,,,,,,
+C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/jk_flip_flop.v,1654612127,verilog,,,,jk_flip_flop,,,,,,,,
+C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/jk_flip_flop_with_D_latch.v,1654611857,verilog,,,,jk_flip_flop_with_D_latch,,,,,,,,
+C:/Code/Vivado/JK_flip_flop/JK_flip_flop_file/time_simulation.v,1654611778,verilog,,,,time_simulation,,,,,,,,

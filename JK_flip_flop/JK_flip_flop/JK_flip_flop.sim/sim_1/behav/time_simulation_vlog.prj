@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../JK_flip_flop_file/D_latch.v"
+verilog xil_defaultlib  "../../../../JK_flip_flop_file/SR_latch.v"
+verilog xil_defaultlib  "../../../../JK_flip_flop_file/SR_latch_with_control.v"
+verilog xil_defaultlib  "../../../../JK_flip_flop_file/Top.v"
+verilog xil_defaultlib  "../../../../JK_flip_flop_file/jk_flip_flop.v"
+verilog xil_defaultlib  "../../../../JK_flip_flop_file/jk_flip_flop_with_D_latch.v"
+verilog xil_defaultlib  "../../../../JK_flip_flop_file/time_simulation.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
